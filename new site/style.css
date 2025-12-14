@@ -1,0 +1,189 @@
+body {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    box-shadow: 0 0 5px #33333333;
+}
+
+header a h1 {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+header nav {
+    margin-top: 30px;
+    margin-left: 170px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#foto1 {
+    position: relative;
+    z-index: -1;
+    left: 250px;
+}
+
+#only {
+
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: -300px;
+    color: aliceblue;
+    padding: 30px;
+
+
+
+}
+
+#real1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: -100px;
+}
+
+#real1 a {
+    height: 350px;
+    background-color: aliceblue;
+    padding: 25px;
+}
+
+#real1 h5 {
+    margin: 0px;
+}
+
+div#calculatoare {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+#despre-magazin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#calculator {
+    position: relative;
+    top: 25px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+#calculatoare p {
+    width: 450px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#tablete {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#tablete p {
+    width: 450px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#tableta {
+    position: relative;
+    top: 150px;
+
+}
+
+#televizoare h2 {
+    font-size: 36px;
+}
+
+#televizoare p {
+    font-size: 22px;
+}
+
+#televizoare {
+    display: grid;
+    grid-template-columns: 5fr 8fr;
+    position: relative;
+    bottom: -100px;
+}
+#televizor{
+    padding-left: 100px;
+}
+#footer-bottom{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    font-family: Nunito;
+    color: rgb(0, 0, 0);
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    position: relative;
+    top: 200px;
+    padding-left: 10px;
+
+}
+#footer-bottom div p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+#Intrebari header{
+    height: 150px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+header{
+    
+    unicode-bidi: isolate;
+    grid-template-columns: 4fr 3fr;
+}
+#Intrebari article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+    top: -50px;
+}
+article{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#Intrebari{
+    background: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    box-shadow: 0 0 10px #333333;
+    position: relative;
+    top: 150px;
+}
+section{
+    display: block;
+    unicode-bidi: isolate;
+}

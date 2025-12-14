@@ -1,0 +1,52 @@
+.stiri {
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    color: blue;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    align-content: center;
+    
+}
+.gadget {
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    color: red;
+    background-color: lightyellow;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    align-content: center;
+}
+.contact {
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    color: green;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    align-content: center;
+}
+.youtube {
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    color: purple;
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    align-content: center;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+    margin-top: 30px;
+}

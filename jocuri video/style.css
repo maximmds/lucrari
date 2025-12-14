@@ -1,0 +1,17 @@
+body{font-size: arial, serif;
+padding: 25px;
+}
+
+.or{
+    color: purple;
+    text-align: center;
+}
+.mmm{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}

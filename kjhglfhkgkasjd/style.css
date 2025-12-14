@@ -1,0 +1,25 @@
+.mountains {
+    height: 1000px;
+   
+    background-image: url(mountains.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #mmm {
+        color: white;
+        font-size: 48px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    #mnm {
+        color: white;
+        font-size: 24px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+}
